@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./back-end
+    ports:
+      - "8000:8000"
+    environment:
+      # As noted in docs/SETUP_AND_CONFIGURATION.md, these only take
+      # effect once main.py reads from os.environ instead of using
+      # hardcoded literals.
+      - TINYFISH_API_KEY=${TINYFISH_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - API_KEY=${API_KEY:-}
+      - PORT=8000
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./src
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
