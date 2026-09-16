@@ -2,13 +2,9 @@
 
 A unified agentic intelligence platform that enables real-time lead generation, zero-friction web navigation, and dynamic multi-model AI responses through a single interface powered by TinyFish API.
 
-#### Here is the IRIS Metal MVP Orientation video: [IRIS • METAL](https://vimeo.com/1183496256?share=copy&fl=sv&fe=ci)
-
-<img width="1427" height="688" alt="IRIS" src="https://github.com/user-attachments/assets/758ba2d4-a2b8-44ac-a670-e906d379966a" />
-
-<img width="1536" height="1024" alt="METAL" src="https://github.com/user-attachments/assets/9383a61b-3012-4842-935a-abd3af121af9" />
-
 ### [Visit: IRIS • METAL ](https://metal-ai-saas.vercel.app)
+
+<img width="1800" height="1000" alt="ZREX TINYFISH" src="https://github.com/user-attachments/assets/a105ddde-6ec3-4779-942a-d13625af6c45" />
 
 ---
 
@@ -194,61 +190,6 @@ getUnifiedResponse(input: string): Promise<string>
 
 ---
 
-## Setup Guide
-
-### 1. Clone Repository
-
-```bash
-git clone <repo-url>
-cd agentic-tinyfish
-```
-
----
-
-### 2. Backend Setup (FastAPI)
-
-#### Install dependencies
-
-```bash
-pip install fastapi uvicorn httpx
-```
-
-#### Run server
-
-```bash
-uvicorn main:app --reload
-```
-
-Server runs at:
-
-```
-http://localhost:8000
-```
-
----
-
-### 3. Environment Variables
-
-Replace in code:
-
-```
-TINYFISH_API_KEY
-GEMINI_API_KEY
-API_KEY
-```
-
----
-
-### 4. Frontend Setup
-
-Ensure connector points to backend:
-
-```ts
-const BASE_API = "http://localhost:8000";
-```
-
----
-
 ## Key Design Principles
 
 ### Agentic Execution
@@ -302,11 +243,6 @@ const BASE_API = "http://localhost:8000";
 
 ---
 
-## Contributions
-#### [@Abishek](https://github.com/R-E-Y-O-X) 
+## License & contribution
 
----
-
-## IRIS Metal
-
-Building the interface between human intent and autonomous intelligence.
+AGENTIC TINYFISH is distributed under the terms defined in `LICENSE`.
