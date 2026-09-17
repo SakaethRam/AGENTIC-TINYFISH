@@ -243,6 +243,6 @@ getUnifiedResponse(input: string): Promise<string>
 
 ---
 
-## License & contribution
+## License & Contribution
 
 AGENTIC TINYFISH is distributed under the terms defined in `LICENSE`.
