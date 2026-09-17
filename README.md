@@ -1,10 +1,8 @@
-# IRIS Metal: Agentic AI powered by TinyFish
+# Agentic TinyFish: Agentic AI powered by TinyFish
 
-A unified agentic intelligence platform that enables real-time lead generation, zero-friction web navigation, and dynamic multi-model AI responses through a single interface powered by TinyFish API.
+A unified agentic intelligence ([@Metal](https://metal-ai-saas.vercel.app)) platform that enables real-time lead generation, zero-friction web navigation, and dynamic multi-model AI responses through a single interface powered by TinyFish API.
 
-### [Visit: IRIS • METAL ](https://metal-ai-saas.vercel.app)
-
-<img width="1800" height="1000" alt="ZREX TINYFISH" src="https://github.com/user-attachments/assets/a105ddde-6ec3-4779-942a-d13625af6c45" />
+<img width="1800" height="1000" alt="ZREX TINYFISH" src="https://github.com/user-attachments/assets/100e37af-5d83-467c-abf7-de9d11f9e6b9" />
 
 ---
 
